@@ -57,6 +57,7 @@ def run_alexa() -> object:
         talk('I am in a relationship with wifi')
     elif 'joke' in command:
         talk(pyjokes.get_joke())
+
     elif 'bye' in command:
         talk('bye dear!, come again,nice to meet you')
 
